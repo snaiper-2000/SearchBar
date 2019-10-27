@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84180C282365AC680007181C /* Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84180C272365AC680007181C /* Parse.swift */; };
+		84180C2A2365B2CD0007181C /* BusinessLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84180C292365B2CD0007181C /* BusinessLogic.swift */; };
 		842613CB231FD71C002FCF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842613CA231FD71C002FCF54 /* AppDelegate.swift */; };
 		842613CD231FD71C002FCF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842613CC231FD71C002FCF54 /* ViewController.swift */; };
 		842613D0231FD71D002FCF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842613CE231FD71D002FCF54 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84180C272365AC680007181C /* Parse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse.swift; sourceTree = "<group>"; };
+		84180C292365B2CD0007181C /* BusinessLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessLogic.swift; sourceTree = "<group>"; };
 		842613C7231FD71C002FCF54 /* SearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842613CA231FD71C002FCF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842613CC231FD71C002FCF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				842613D1231FD733002FCF54 /* Assets.xcassets */,
 				842613D3231FD733002FCF54 /* LaunchScreen.storyboard */,
 				842613D6231FD733002FCF54 /* Info.plist */,
+				84180C272365AC680007181C /* Parse.swift */,
+				84180C292365B2CD0007181C /* BusinessLogic.swift */,
 			);
 			path = SearchBar;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84180C2A2365B2CD0007181C /* BusinessLogic.swift in Sources */,
 				842613CD231FD71C002FCF54 /* ViewController.swift in Sources */,
+				84180C282365AC680007181C /* Parse.swift in Sources */,
 				842613CB231FD71C002FCF54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
